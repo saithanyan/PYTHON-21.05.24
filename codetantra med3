@@ -1,12 +1,6 @@
-def find_coincidence(hours):
-    minutes = (60 * (12 - hours % 12) + 11 * (60 - minutes_past_hour)) % 60
-    return minutes / 60
-
-print("Enter time in hours:")
-hours = int(input())
-
-if hours >= 0 and hours < 24:
-    result = find_coincidence(hours)
-    print(f"{(180 / 11):.2f}")
+time=int(input("Enter the Time: "))
+if time>0:
+    time = time*60
+    print(time,"/11")
 else:
-    print("Invalid input")
+    print("Invaild input")
