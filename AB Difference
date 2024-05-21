@@ -1,0 +1,8 @@
+# Input two integers A and B separated by space
+A, B = map(int, input().split())
+
+# Calculate the absolute difference
+difference = abs(A - B)
+
+# Print the absolute difference
+print(difference)
