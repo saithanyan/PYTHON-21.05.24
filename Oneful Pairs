@@ -1,0 +1,8 @@
+def is_oneful_pair(a, b):
+    return a + b + (a * b) == 111
+
+a, b = map(int, input().split())
+if is_oneful_pair(a, b):
+    print("Yes")
+else:
+    print("No")
