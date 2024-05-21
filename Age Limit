@@ -1,0 +1,11 @@
+# Define the age limit
+AGE_LIMIT = 18
+
+# Input the age
+age = int(input("Enter your age: "))
+
+# Check if the age meets the eligibility criteria
+if age >= AGE_LIMIT:
+    print("You are eligible.")
+else:
+    print("You are not eligible.")
