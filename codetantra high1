@@ -1,0 +1,13 @@
+a,b=(int(input("Enter no.1 : ")),int(input("Enter no.2 : ")))
+o=input("Operator: ")
+match o:
+    case "+":
+        print("Sum of 2 numbers: ",a+b)
+    case "-":
+        print("Subtraction of 2 numbers: ",a-b)
+    case "*":
+        print("Product of 2 numbers: ",a*b)
+    case "/":
+        print("Quotient of 2 numbers: ",a/b)
+    case "%":
+        print("Reminder of 2 numbers: ",a%b)
