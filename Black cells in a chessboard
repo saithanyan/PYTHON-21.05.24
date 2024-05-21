@@ -1,0 +1,4 @@
+# cook your dish here
+n=int(input())
+res=(n*n)/2
+print(res)
